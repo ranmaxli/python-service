@@ -1,0 +1,4 @@
+HTTP_OK = 200
+
+WEB_HANDLER_LOGGER_NAME = "web_handler"
+WEB_HANDLER_EXTRA_KEY = "web_handler"

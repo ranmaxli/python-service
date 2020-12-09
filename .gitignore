@@ -1,0 +1,6 @@
+*.dat
+*.log
+*.pyc
+*.swp
+.idea/*
+__pycache__
