@@ -4,5 +4,5 @@ from etornado.buildin_handlers.base_handler import BaseHandler
 class {{handler_name}}(BaseHandler):
 
     def do_{{method}}(self):
-        # 鍒犻櫎姝ゆ敞閲婂拰涓嬮潰杩欒锛屽疄鐜板搴旂殑http璇锋眰閫昏緫
+        # 删除此注释和下面这行，实现对应的http请求逻辑
         return "Hello world!"
