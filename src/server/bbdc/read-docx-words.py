@@ -1,5 +1,25 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+
+# 名称：该软件主要将我们日常所需要的记忆的词汇转换成“不背单词”自定义词汇所需要的文件格式
+# 时间：2021-7-9 07:33:46
+# 作者：ranmaxli
+
+# # 使用说明
+# # 1、找到一篇喜欢的文章，把文章内容复制下来，粘贴到docx文件下，并放置项目word-dictionary文件夹下。
+# # 2、更改读取的 get_word 方法中的 file=docx.Document(" URL ") 的地址
+# # 3、运行程序后可以到word-txt取名称为最新的txt文本上传至 bbdc.cn 取得最新词汇表
+# #
+# # # 项目结构说明
+# # # word-dictionary
+# #     用于存放用户自己整理的word单词文档
+# # # word-txt
+# #     系统分析后生成的单词字典表
+# # # everyday-vocabulary.txt
+# #     常用的词汇，如果你想屏蔽一些已经会的词汇，直接添加在这个文件中即可，系统分析时会直接跳过
+# # # read-docx-words.py
+# #     项目主函数入口
+
 import docx
 import re
 from collections import Counter
